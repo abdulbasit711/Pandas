@@ -60,6 +60,7 @@ const HeroSection = () => {
           >
             <Link
               to="https://erp-deployment.vercel.app/"
+              target="_blank" // Open link in new tab
               onClick={handleLinkClick}
               className="px-6 py-3 text-lg font-semibold hover:text-white hover:bg-primary dark:bg-gray-700 rounded-lg text-primary border-2 border-primary shadow-lg hover:shadow-xl transition-all"
             >
