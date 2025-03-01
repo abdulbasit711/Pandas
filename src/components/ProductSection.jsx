@@ -20,7 +20,7 @@ const ProductSection = () => {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl font-bold text-primary dark:text-white mb-6"
+          className="sm:text-4xl text-3xl px-2 font-bold text-primary dark:text-white mb-6"
         >
           Key Features of Our ERP
         </motion.h2>
