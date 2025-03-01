@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className="bg-gray-100 dark:bg-gray-900 shadow-md fixed w-full top-0 left-0 z-50 transition-all">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-primary dark:text-white">
+        <Link to="/" className="text-2xl font-bebas-neue font-bold text-primary dark:text-white">
           PANDAS
         </Link>
 
