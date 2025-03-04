@@ -6,11 +6,13 @@ import Home from "./pages/Home";
 import ProductSection from "./components/ProductSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
+import TrackPageViews from "./pages/TrackPageViews";
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <TrackPageViews />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<ProductSection />} />
