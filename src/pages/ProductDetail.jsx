@@ -44,7 +44,7 @@ const ProductDetail = () => {
               background: `linear-gradient(to bottom right, ${theme.colors.primary}20, ${theme.colors.secondary}20)`
             }}
           >
-            <div className="text-6xl text-white">
+            <div className="text-5xl text-white">
               {product.icon}
             </div>
           </motion.div>
@@ -53,7 +53,7 @@ const ProductDetail = () => {
             {product.name}
           </h1>
 
-          <p className="text-2xl text-gray max-w-4xl mx-auto mb-8 font-poppins leading-relaxed">
+          <p className="text-md md:text-2xl text-gray max-w-4xl mx-auto mb-8 font-poppins leading-relaxed">
             {product.description}
           </p>
 
